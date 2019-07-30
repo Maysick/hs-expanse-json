@@ -86,3 +86,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Project specific files
+cards.json
+bin/
+src/scripts.js
