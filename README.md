@@ -1,2 +1,2 @@
-# hs-expanse
-Viewer website for custom Hearthstone expansions
+# hs-expanse-json
+JSON editor for custom Hearthstone expansions
