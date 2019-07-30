@@ -1,10 +1,10 @@
 {
-  "name": "hs-expanse",
+  "name": "hs-expanse-json",
   "version": "1.0.0",
-  "description": "Viewer website for custom Hearthstone expansions",
+  "description": "JSON editor for custom Hearthstone expansions",
   "main": "index.js",
   "bin": {
-    "hs-expanse": "main.js"
+    "hs-expanse-json": "main.js"
   },
   "scripts": {
     "start": "webpack src/main.js --output bin/app.js -d --watch",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maysick/hs-expanse.git"
+    "url": "git+https://github.com/Maysick/hs-expanse-json.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maysick/hs-expanse/issues"
+    "url": "https://github.com/Maysick/hs-expanse-json/issues"
   },
-  "homepage": "https://github.com/Maysick/hs-expanse#readme",
+  "homepage": "https://github.com/Maysick/hs-expanse-json#readme",
   "dependencies": {
     "mithril": "^2.0.0-rc.9",
     "require": "^2.4.20"
