@@ -1,0 +1,50 @@
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted #333333;
+	margin: auto 5px auto 5px;
+	color: #333333;
+}
+  
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 200px;
+  
+	background: #333333;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+  
+.ttipright .ttiptextright {
+	  top: -5px;
+	  left: 105%;
+}
+
+.ttipleft .ttiptextleft {
+	top: -5px;
+	right: 105%; 
+}
+
+.ttiptop .ttiptexttop {
+	width: 200px;
+	bottom: 100%;
+	left: 50%; 
+	margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.ttipdown .ttiptextdown {
+	width: 200px;
+	top: 100%;
+	left: 50%; 
+	margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+  
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}

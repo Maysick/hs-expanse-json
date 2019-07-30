@@ -1,0 +1,43 @@
+/* styles.css */
+body,.input, button, select, textarea {font:normal 16px Verdana;margin:0;}
+textarea {resize: none;}
+
+.align-left {float: left;}
+.align-right {float: right}
+
+.layout {margin:10px auto;max-width:1000px;}
+.menu {margin:0 0 30px;}
+
+
+.row {margin: 0px 0px 20px 0px;}
+.stats-container, .type-container, .name-container, .text-container, .button-container, .art-container {display: flex;}
+.name-container, .stats-container, .text-container, .button-container, .art-container { justify-content: space-between;}
+
+label.stats {margin: auto 0px auto 0px;}
+.stats-container input {width: 26%; margin: 0}
+
+label.type {margin: auto 10px auto 0px;}
+.type-container select {margin-right:40px; }
+
+.couple {margin: 0 0 0 0;}
+.name-couple {width: 70%;}
+.artist-couple, .source-couple {width: 45%;}
+
+.header button {display: inline;}
+
+.new {background: #aaffaa;}
+.new:hover {background: #71eb71}
+.download {background: #aaaaff;}
+.download:hover {background: #7171eb}
+.delete {background: #ffaaaa}
+.delete:hover {background: #eb7171}
+
+.card-list {list-style:none;margin:0 0 10px;padding:0;}
+.card-list-item {background:#fafafa;border:1px solid #ddd;color:#333;display:block;margin:0 0 1px;padding:8px 15px;text-decoration:none;}
+.card-list-item:hover div {text-decoration:underline;}
+
+.label {display:block;margin:0 0 5px;}
+.input, textarea, input.datalist {border:1px solid #ddd;border-radius:3px;box-sizing:border-box;display:block;margin:0 0 10px;padding:10px 15px;width:100%;}
+button {background:#eee;border:1px solid #ddd;border-radius:3px;color:#333;display:inline-block;margin:10px 3px;padding:10px 15px;text-decoration:none; font-weight: bold;}
+button:hover {background:#e8e8e8;}
+input.datalist {margin: 0; font: 16px Verdana;}

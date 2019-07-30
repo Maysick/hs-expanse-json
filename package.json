@@ -1,0 +1,33 @@
+{
+  "name": "hs-expanse",
+  "version": "1.0.0",
+  "description": "Viewer website for custom Hearthstone expansions",
+  "main": "index.js",
+  "bin": {
+    "hs-expanse": "main.js"
+  },
+  "scripts": {
+    "start": "webpack src/main.js --output bin/app.js -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maysick/hs-expanse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maysick/hs-expanse/issues"
+  },
+  "homepage": "https://github.com/Maysick/hs-expanse#readme",
+  "dependencies": {
+    "mithril": "^2.0.0-rc.9",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "@types/mithril": "^1.1.17",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
